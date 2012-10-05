@@ -1,0 +1,33 @@
+<plugin name='cache' version='1.0.0' grailsVersion='2.0 &gt; *'>
+  <author>Jeff Brown</author>
+  <authorEmail>jbrown@vmware.com</authorEmail>
+  <title>Cache Plugin</title>
+  <description>Grails Cache Plugin</description>
+  <documentation>http://grails.org/plugin/cache</documentation>
+  <type>CacheGrailsPlugin</type>
+  <resources>
+    <resource>DefaultCacheConfig</resource>
+    <resource>TestCacheConfig</resource>
+    <resource>com.demo.DemoController</resource>
+    <resource>com.demo.PersonController</resource>
+    <resource>com.demo.Person</resource>
+    <resource>com.demo.BasicCachingService</resource>
+    <resource>grails.plugin.cache.GrailsCacheAdminService</resource>
+    <resource>grails.plugin.cache.CacheTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='webxml' version='1.4.1' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

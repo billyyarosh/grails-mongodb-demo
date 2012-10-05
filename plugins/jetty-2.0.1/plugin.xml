@@ -1,0 +1,25 @@
+<plugin name='jetty' version='2.0.1' grailsVersion='2.0 &gt; *'>
+  <author>Graeme Rocher</author>
+  <authorEmail>graeme.rocher@springsource.com</authorEmail>
+  <title>Jetty Plugin</title>
+  <description>Makes Jetty the development time container for Grails</description>
+  <documentation>http://grails.org/plugin/jetty</documentation>
+  <type>JettyGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='org.eclipse.jdt.core.compiler' name='ecj' version='3.6.2' />
+      <dependency group='org.eclipse.jetty.aggregate' name='jetty-all' version='7.6.0.v20120127' />
+    </runtime>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

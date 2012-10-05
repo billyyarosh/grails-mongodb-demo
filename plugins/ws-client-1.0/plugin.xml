@@ -1,0 +1,20 @@
+<plugin name='ws-client' version='1.0' grailsVersion='1.1.1 &gt; *'>
+  <author>Cazacu Mihai</author>
+  <authorEmail>cazacugmihai@gmail.com</authorEmail>
+  <title>Web Service Client</title>
+  <description>A plugin that allows you to connect to web services (uses CXF).</description>
+  <documentation>http://grails.org/plugin/ws-client</documentation>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugins.wsclient.service.WebService</resource>
+  </resources>
+  <dependencies>
+    <resolvers>
+      <resolver type='grailsPlugins' name='grailsPlugins' />
+    </resolvers>
+  </dependencies>
+  <behavior />
+</plugin>

@@ -1,0 +1,5 @@
+DefaultPackage
+grails-app.conf
+grails-app.services.org.grails.plugins.wsclient.service
+scripts
+test.integration.org.grails.plugins.wsclient.test.service
