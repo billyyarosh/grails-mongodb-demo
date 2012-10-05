@@ -53,8 +53,8 @@
         <dependency>
             <groupId>org.grails.plugins</groupId>
             <artifactId>mongodb</artifactId>
-            <version>1.0.0.RC5</version>
-            <scope>runtime</scope>
+            <version>1.0.0.GA</version>
+            <scope>compile</scope>
             <type>zip</type>
         </dependency>
                     
