@@ -2,22 +2,24 @@ package org.keaplogik
 
 class Address {
 
-    String state;
     String streetAddress;
+    String city;
+    String state;
     String zipCode;
 
-    Date moveInDate;
-    Date moveOutDate;
+    //Date moveInDate;
+    //Date moveOutDate;
 
     static belongsTo = [person: Person]
 
     static constraints = {
-        state(blank: false)
         streetAddress(blank: false)
-        zipCode(blank: false)
-        moveInDate(nullable: false)
+        city(blank: false)
+        state(blank: false, size: 2..2)
+        zipCode(blank: false, size: 5..5, validator: {val, obj -> val?.isNumber()})
+        /*moveInDate(nullable: false, max:  new Date())
         moveOutDate(nullable: true, validator: { val, obj ->
             val?.after(obj.moveInDate)
-        })
+        })*/
     }
 }
