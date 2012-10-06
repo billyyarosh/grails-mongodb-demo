@@ -59,13 +59,13 @@
         </dependency>
                     
 
-    <dependency>
+    <!--<dependency>
         <groupId>org.grails.plugins</groupId>
         <artifactId>database-migration</artifactId>
         <version>1.1</version>
         <scope>runtime</scope>
         <type>zip</type>
-    </dependency>
+    </dependency>-->
 
         <dependency>
             <groupId>org.grails.plugins</groupId>

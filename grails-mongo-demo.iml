@@ -145,7 +145,6 @@
     <orderEntry type="library" name="Maven: org.grails:grails-datastore-gorm-plugin-support:1.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javassist:javassist:3.12.0.GA" level="project" />
     <orderEntry type="library" name="Maven: org.grails:grails-datastore-gorm-mongo:1.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:2.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:3.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.grails:grails-maven-archetype:2.1.1" level="project" />

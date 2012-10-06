@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad1eb21-d4b7-4482-b6b3-42deb3a42db3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_liquibase_liquibase_core_2_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_0_7_RELEASE.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/mongodb-1.0.0.RC5/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/mongodb-1.0.0.RC5/MongodbGrailsPlugin.groovy" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/mongodb-1.0.0.RC5/application.properties" afterPath="" />
@@ -14,7 +11,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/mongodb-1.0.0.RC5/scripts/_Uninstall.groovy" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/mongodb-1.0.0.RC5/scripts/_Upgrade.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/org/keaplogik/Address.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/org/keaplogik/Address.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="grails-mongo-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="34" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.0">
+            <state line="63" column="20" selection-start="1893" selection-end="1911" vertical-scroll-proportion="0.39114392">
               <folding />
             </state>
           </provider>
@@ -117,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddressController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/keaplogik/AddressController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.1734104">
+            <state line="6" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="-3.9130435">
               <folding />
             </state>
           </provider>
@@ -161,8 +158,8 @@
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/plugins/ws-client-1.0/application.properties" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/grails-app/domain/org/keaplogik/Address.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -505,7 +502,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="71" width="1722" height="1003" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -520,7 +517,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33034647" sideWeight="0.670068" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33034647" sideWeight="0.670068" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -648,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="34" selection-start="2468" selection-end="2468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/org/keaplogik/Address.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="39" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.0">
@@ -667,7 +657,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/org/keaplogik/AddressController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.1734104">
+        <state line="6" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="-3.9130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="20" selection-start="1893" selection-end="1911" vertical-scroll-proportion="0.39114392">
           <folding />
         </state>
       </provider>
