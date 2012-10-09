@@ -11,6 +11,16 @@ Grails - Demo Project W/ MongoDB, Jetty, and GroovyWS
  
  The application will progress through a series of tutorials.
 
+Quick Start
+============
+1. Clone into the repo or [download here](https://github.com/keaplogik/grails-mongodb-demo/zipball/master)
+2. cd to dirtectory and run: `mvn grails:run-app`
+	* Requires
+		* Maven
+		* Grails SDK
+		* MongoDB installed and running
+3. To integrate with intelliK: `grails integrate-with --intellij`
+
 **Tutorial Links**
 
 1. [Grails Part 1 - Setting up the Project][part-one]
