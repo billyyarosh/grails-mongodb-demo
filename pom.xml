@@ -31,7 +31,6 @@
         </dependency>
 
 
-
         <dependency>
             <groupId>org.grails.plugins</groupId>
             <artifactId>jetty</artifactId>
@@ -40,14 +39,14 @@
             <type>zip</type>
         </dependency>
 
-        
-    <dependency>
-        <groupId>org.grails.plugins</groupId>
-        <artifactId>cache</artifactId>
-        <version>1.0.0</version>
-        <scope>compile</scope>
-        <type>zip</type>
-    </dependency>
+
+        <dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>cache</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+            <type>zip</type>
+        </dependency>
 
 
         <dependency>
@@ -57,15 +56,15 @@
             <scope>compile</scope>
             <type>zip</type>
         </dependency>
-                    
 
-    <!--<dependency>
-        <groupId>org.grails.plugins</groupId>
-        <artifactId>database-migration</artifactId>
-        <version>1.1</version>
-        <scope>runtime</scope>
-        <type>zip</type>
-    </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>database-migration</artifactId>
+            <version>1.1</version>
+            <scope>runtime</scope>
+            <type>zip</type>
+        </dependency>-->
 
         <dependency>
             <groupId>org.grails.plugins</groupId>
@@ -90,31 +89,38 @@
             <scope>compile</scope>
             <type>zip</type>
         </dependency>
-                    
 
-    <dependency>
-        <groupId>org.grails.plugins</groupId>
-        <artifactId>resources</artifactId>
-        <version>1.1.6</version>
-        <scope>runtime</scope>
-        <type>zip</type>
-    </dependency>
-                    
 
-    <dependency>
-        <groupId>org.grails.plugins</groupId>
-        <artifactId>jquery</artifactId>
-        <version>1.8.0</version>
-        <scope>runtime</scope>
-        <type>zip</type>
-    </dependency>
-                    
+        <dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>resources</artifactId>
+            <version>1.1.6</version>
+            <scope>runtime</scope>
+            <type>zip</type>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>jquery</artifactId>
+            <version>1.8.0</version>
+            <scope>runtime</scope>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>lesscss-resources</artifactId>
+            <version>1.3.0.3</version>
+            <scope>runtime</scope>
+            <type>zip</type>
+        </dependency>
 
 
     </dependencies>
 
     <build>
-        <pluginManagement />
+        <pluginManagement/>
 
         <plugins>
             <!-- Disables the Maven surefire plugin for Grails applications, as we have our own test runner -->
@@ -158,9 +164,9 @@
                 <groupId>org.grails</groupId>
                 <artifactId>grails-maven-plugin</artifactId>
                 <version>${grails.version}</version>
-                <!--<configuration>
+                <configuration>
                     <fork>true</fork>
-                </configuration>-->
+                </configuration>
                 <extensions>true</extensions>
             </plugin>
         </plugins>

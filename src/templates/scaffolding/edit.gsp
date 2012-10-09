@@ -9,13 +9,14 @@
 	</head>
 	<body>
         <div class="container">
-            <a href="#edit-${domainClass.propertyName}" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-            <div role="navigation">
-                <ul class="nav, navbar-fixed-top">
-                    <li><a class="home" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-                    <li><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-                    <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-                </ul>
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <ul class="nav">
+                        <li><a class="home" href="\${createLink(uri: '/person')}"><g:message code="default.home.label"/></a></li>
+                        <li><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
+                        <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+                    </ul>
+                </div>
             </div>
             <div class="row">
                 <div id="edit-${domainClass.propertyName}" class="content scaffold-edit span-6" role="main">
@@ -36,7 +37,7 @@
                         <fieldset class="form">
                             <g:render template="form"/>
                         </fieldset>
-                        <fieldset class="buttons">
+                        <fieldset class="form-actions">
                             <g:actionSubmit class="btn btn-primary save" action="update" value="\${message(code: 'default.button.update.label', default: 'Update')}" />
                             <g:actionSubmit class="btn delete" action="delete" value="\${message(code: 'default.button.delete.label', default: 'Delete')}" formnovalidate="" onclick="return confirm('\${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
                         </fieldset>

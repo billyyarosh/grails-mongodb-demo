@@ -89,3 +89,12 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+grails.resources.modules = {
+
+    bootstrap {
+        resource url:'less/custom-bootstrap.less',attrs:[rel: "stylesheet/less", type:'css']
+        dependsOn 'jquery'
+    }
+
+}
