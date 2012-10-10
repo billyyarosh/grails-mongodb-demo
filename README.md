@@ -1,7 +1,7 @@
 Grails - Demo Project W/ MongoDB, Jetty, and GroovyWS
 -------------------------------------------------------
 
-**Application name:** *`grails-mongo-demo`*
+**Application name:** *`grails-mongodb-demo`*
 **The Goal:** To track and record persons addresses.
  
 Web application using:
