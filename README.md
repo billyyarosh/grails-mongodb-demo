@@ -8,10 +8,10 @@ Web application using:
 
 1. `MongoDB`
 2. `TW Bootstrap`
-2. `Spring Security`
-3. `Apache CXF`
-4. `Jetty Web Server`
-5. `Maven build integration`
+3. `Spring Security`
+4. `Apache CXF`
+5. `Jetty Web Server`
+6. `Maven build integration`
  
  The application progresses through a series of tutorials.
 
