@@ -29,6 +29,7 @@ Quick Start
 1. [Grails Part 1 - Setting up the Project][part-one]
 2. [Grails Part 2 - Configuring Web Application Plugins][part-two]
 3. [Grails Part 3 - Building a CRUD Application][part-three]
+4. [Grails Part 4: Enhanced UI Design w/ Twitter Bootstrap][part-four]
 
 #### About this application
 - Project Setup
@@ -51,3 +52,4 @@ Quick Start
 [part-one]: http://keaplogik.blogspot.com/2012/10/grails-setting-up-project-on-maven-with.html
 [part-two]: http://keaplogik.blogspot.com/2012/10/grails-part-2-configuring-web.html
 [part-three]: http://keaplogik.blogspot.com/2012/10/grails-part-3-building-crud-application.html
+[part-four]: http://keaplogik.blogspot.com/2012/10/grails-part-4-enhanced-ui-design-w.html
