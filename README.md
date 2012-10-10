@@ -20,9 +20,9 @@ Quick Start
 2. cd to dirtectory and run: `mvn grails:run-app`
 	* Requires
 		* Maven
-		* Grails SDK
+		* Grails SDK (not necessary if running maven targets)
 		* MongoDB installed and running
-3. To integrate with intelliK: `grails integrate-with --intellij`
+3. To integrate with intelliJ: `grails integrate-with --intellij`
 
 **Tutorial Links**
 
