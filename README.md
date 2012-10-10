@@ -44,9 +44,9 @@ Quick Start
 - Application Code
 	- Simple Domain Model
 	- CRUD application using Grails Scaffolding
-	- Enhanced UI Design(later)
-	- Adding Security(later)
-	- Services with GroovyWS(later)
+	- Enhanced UI Design
+	- Adding Security(comming soonn)
+	- Services with GroovyWS(comming soon)
 
 
 [part-one]: http://keaplogik.blogspot.com/2012/10/grails-setting-up-project-on-maven-with.html
