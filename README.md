@@ -4,12 +4,13 @@ Grails - Demo Project W/ MongoDB, Jetty, and GroovyWS
 **Application name:** *`grails-mongo-demo`*
 **The Goal:** To track and record persons addresses.
  
-*Web application using:
+Web application using:
+
 1. `MongoDB`
 2. `Spring Security`
 3. `Apache CXF`
 4. `Jetty Web Server`
-5. `Maven build integration`*
+5. `Maven build integration`
  
  The application progresses through a series of tutorials.
 
