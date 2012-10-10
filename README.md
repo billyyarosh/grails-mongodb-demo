@@ -17,7 +17,7 @@ Web application using:
 
 Quick Start
 ============
-1. Clone into the repo or [download here](https://github.com/keaplogik/grails-mongodb-demo/zipball/master)
+1. Clone into the repo or [download latest tag v1.0](https://github.com/keaplogik/grails-mongodb-demo/zipball/v1.0)
 2. cd to dirtectory and run: `mvn grails:run-app`
 	* Requires
 		* Maven
