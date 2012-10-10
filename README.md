@@ -1,15 +1,17 @@
 Grails - Demo Project W/ MongoDB, Jetty, and GroovyWS
 -------------------------------------------------------
 
-> **Continuing series: Developing a Grails Web Application.**<br/>
- This application will use the Grails Framework to develop a web application using:
- 1. `MongoDB`
- 2. `Spring Security`
- 3. `Apache CXF`
- 4. `Jetty Web Server`
- 5. `Maven build integration`
+**Application name:** *`grails-mongo-demo`*
+**The Goal:** To track and record persons addresses.
  
- The application will progress through a series of tutorials.
+*Web application using:
+1. `MongoDB`
+2. `Spring Security`
+3. `Apache CXF`
+4. `Jetty Web Server`
+5. `Maven build integration`*
+ 
+ The application progresses through a series of tutorials.
 
 Quick Start
 ============
