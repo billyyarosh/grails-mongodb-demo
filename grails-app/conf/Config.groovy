@@ -1,15 +1,27 @@
-// locations to search for config files that get merged into the main config;
-// config files can be ConfigSlurper scripts, Java properties files, or classes
-// in the classpath in ConfigSlurper format
 
-// grails.config.locations = [ "classpath:${appName}-config.properties",
-//                             "classpath:${appName}-config.groovy",
-//                             "file:${userHome}/.grails/${appName}-config.properties",
-//                             "file:${userHome}/.grails/${appName}-config.groovy"]
 
-// if (System.properties["${appName}.config.location"]) {
-//    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-// }
+// Spring Security config
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'org.keaplogik.SecUser'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'org.keaplogik.SecUserSecRole'
+grails.plugins.springsecurity.authority.className = 'org.keaplogik.SecRole'
+grails.plugins.springsecurity.password.algorithm='SHA-512'
+//grails.plugins.springsecurity.rejectIfNoRule = true
+//grails.plugins.springsecurity.successHandler.defaultTargetUrl = '/person/index'
+//grails.plugins.springsecurity.portMapper.httpPort = "8080"
+//grails.plugins.springsecurity.portMapper.httpsPort = "8443"
+grails.plugins.springsecurity.securityConfigType = 'InterceptUrlMap'
+grails.plugins.springsecurity.interceptUrlMap = [
+        '/person/index':    ['ROLE_USER, ROLE_ADMIN, IS_AUTHENTICATED_FULLY'],
+        '/person/**':       ['ROLE_ADMIN'],
+        '/address/**':      ['ROLE_ADMIN'],
+        '/js/**':           ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/css/**':          ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/images/**':       ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/*':               ['IS_AUTHENTICATED_FULLY'],
+        '/login/**':        ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/logout/**':       ['IS_AUTHENTICATED_ANONYMOUSLY']
+
+]
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
@@ -73,9 +85,9 @@ environments {
 log4j = {
     // Example of changing the log pattern for the default console appender:
     //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
+    appenders {
+        console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
+    }
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
@@ -84,10 +96,7 @@ log4j = {
            'org.codehaus.groovy.grails.web.mapping',        // URL mapping
            'org.codehaus.groovy.grails.commons',            // core / classloading
            'org.codehaus.groovy.grails.plugins',            // plugins
-           'org.codehaus.groovy.grails.orm.hibernate',      // hibernate integration
-           'org.springframework',
-           'org.hibernate',
-           'net.sf.ehcache.hibernate'
+           'org.springframework'
 }
 
 grails.resources.modules = {

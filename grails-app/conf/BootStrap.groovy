@@ -1,9 +1,37 @@
 import org.keaplogik.Person
 import org.keaplogik.Address
+import org.keaplogik.SecRole
+import org.keaplogik.SecUser
+import org.keaplogik.SecUserSecRole
 
 class BootStrap {
 
     def init = { servletContext ->
+
+        //Configure Security Roles
+        def userRole = SecRole.findByAuthority('ROLE_USER') ?: new SecRole(authority: 'ROLE_USER').save(failOnError: true)
+        def adminRole = SecRole.findByAuthority('ROLE_ADMIN') ?: new SecRole(authority: 'ROLE_ADMIN').save(failOnError: true)
+
+        //add an admin and default user
+        def adminUser = SecUser.findByUsername('admin') ?: new SecUser(
+                username: 'admin',
+                password: 'admin',
+                enabled: true).save(failOnError: true)
+
+        def basicUser = SecUser.findByUsername('guest') ?: new SecUser(
+                username: 'guest',
+                password: 'guest',                          //pw encoded by security plugin
+                enabled: true).save(failOnError: true)
+
+        if (!adminUser.authorities.contains(adminRole)) {
+            SecUserSecRole.create adminUser, adminRole
+        }
+        if (!basicUser.authorities.contains(userRole)) {
+            SecUserSecRole.create basicUser, userRole
+        }
+
+
+        //Add mock data if none exists
         if (!Person.count()) {
             def johnDoe = new Person( firstName: "John", lastName: "Doe" ).save(failOnError: true)
             def joeReed = new Person( firstName: "Joe", lastName: "Reed" ).save(failOnError: true)
