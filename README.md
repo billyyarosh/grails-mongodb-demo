@@ -18,6 +18,7 @@ Web application using:
 Quick Start
 ============
 1. Clone into the repo or [download latest tag v1.1](https://github.com/keaplogik/grails-mongodb-demo/zipball/v1.1)
+	* Without spring security [download tag v1.0](https://github.com/keaplogik/grails-mongodb-demo/zipball/v1.2)
 2. cd to dirtectory and run: `mvn grails:run-app`
 	* Requires
 		* Maven
@@ -46,7 +47,7 @@ Quick Start
 	- Simple Domain Model
 	- CRUD application using Grails Scaffolding
 	- Enhanced UI Design
-	- Adding Security - **comming soon**
+	- Adding Security
 	- Services with GroovyWS - **comming soon**
 
 
