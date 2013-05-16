@@ -35,7 +35,7 @@ Quick Start
 
 #### About this application
 - Project Setup
-  - Grails SDK 2.1.1
+  - Grails SDK ~~2.1.1~~ => 2.2.0
 	- Integration with Maven
 	- Integrating with IntelliJ
 - Configured Plugins
