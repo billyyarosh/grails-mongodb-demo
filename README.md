@@ -36,7 +36,7 @@ Quick Start
 #### About this application
 - Project Setup
   - Grails SDK ~~2.1.1~~ => 2.2.0
-	- Integration with Maven
+	- ~~Integration with Maven~~ => Use grails plugin system exlusively (Look Ma, no Maven.)
 	- Integrating with IntelliJ
 - Configured Plugins
 	- MongoDB
@@ -49,6 +49,7 @@ Quick Start
 	- Enhanced UI Design
 	- Adding Security
 	- Services with GroovyWS - **comming soon**
+	- => Add twitter client plugin and several other plugins
 
 
 [part-one]: http://keaplogik.blogspot.com/2012/10/grails-setting-up-project-on-maven-with.html
