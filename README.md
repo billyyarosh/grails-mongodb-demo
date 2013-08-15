@@ -11,7 +11,7 @@ Web application using:
 3. `Spring Security`
 4. `Apache CXF`
 5. `Jetty Web Server`
-6. `Maven build integration`
+~~6. `Maven build integration`~~ => Removed funcionality as it doesn't make the best use case.
  
  The application progresses through a series of tutorials.
 
@@ -21,7 +21,7 @@ Quick Start
 	* Without spring security [download tag v1.0](https://github.com/keaplogik/grails-mongodb-demo/zipball/v1.2)
 2. cd to dirtectory and run: `mvn grails:run-app`
 	* Requires
-		* Maven
+		~~* Maven~~
 		* Grails SDK (not necessary if running maven targets)
 		* MongoDB installed and running
 3. To integrate with intelliJ: `grails integrate-with --intellij`
